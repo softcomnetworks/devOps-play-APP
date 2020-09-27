@@ -139,3 +139,5 @@ cython_debug/
 
 #config file
 app/config.py
+.vscode/tasks.json
+.vscode/launch.json
