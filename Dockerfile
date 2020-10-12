@@ -18,7 +18,7 @@ ADD requirements.txt .
 RUN python -m pip install -r requirements.txt
 
 WORKDIR /web-app
-ADD . /web-app
+COPY . /web-app
 
 CMD [ "flask", "run", "--host=0.0.0.0", "--port=5000"]
 
